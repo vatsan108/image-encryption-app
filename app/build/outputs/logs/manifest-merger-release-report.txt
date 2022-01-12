@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.STORAGE
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:15:5-16:23
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:15:22-62
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:23:9-53
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:30:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:31:22-73
+application
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:33:5-87:19
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:37:9-41
+	android:icon
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:36:9-49
+	android:allowBackup
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:35:9-36
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:34:9-35
+activity#com.android.receiver.AndroidReceiverActivity
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:39:13-52
+activity#com.android.receiver.Splash
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:42:9-45:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:43:13-35
+activity#com.android.receiver.MainActivitycallr
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:47:13-46
+activity#com.android.receiver.ChatReceiverActivity
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:52:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:51:13-49
+activity#com.android.receiver.PhotoReceive
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:61:13-41
+activity#com.android.receiver.Login
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:65:13-34
+activity#com.android.receiver.ViewReceivedMessages
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:69:13-49
+activity#com.android.receiver.DepartmentListActivity
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:72:9-75:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:73:13-51
+activity#com.android.receiver.EncImageReceive
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:77:9-85:20
+	android:label
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:79:13-45
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:78:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:80:13-84:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:81:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml:83:27-74
+uses-sdk
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\app\src\main\AndroidManifest.xml

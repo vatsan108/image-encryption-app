@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.receiver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.android.receiver.Myappcrash"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@drawable/disaster_logo_1"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+        <activity
+            android:name="com.android.receiver.AndroidReceiverActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.Splash"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.MainActivitycallr"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.ChatReceiverActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!--
+        <activity
+            android:name=".EncImageReceive"
+            android:label="@string/app_name" >
+        </activity>
+        -->
+
+        <activity
+            android:name="com.android.receiver.PhotoReceive"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.ViewReceivedMessages"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.DepartmentListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.receiver.EncImageReceive"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

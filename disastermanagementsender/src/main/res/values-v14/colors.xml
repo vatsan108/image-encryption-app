@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+
+     <!--trip info-->
+    <color name="colorPrimary">#114F5F</color>
+    <color name="colorPrimaryDark">#14252B</color>
+    <color name="colorAccent">#252022</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+
+    // salon
+    <!--<color name="colorPrimary">#FF3F51B5</color>
+    <color name="colorPrimaryDark">#040A2C</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+
+    <color name="transparent">#00000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c07FFF00</color>
+    <color name="result_image_border">#ff526F35</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c07FFF00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff526F35</color>
+    <color name="viewfinder_laser">#ff7FFF00</color>
+    <color name="transparent_blue">#80004488</color>
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="viewfinder_mask">#607CFC00</color>
+
+    <color name="parkingfree">#5ea319</color>
+    <color name="parkingfull">#490e0c</color>
+    <color name="green">#42d963</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#3f59de</color>
+    <color name="orange">#FFE17918</color>
+    <color name="lighpink">#f59393</color>
+
+    <color name="black">#7E7A7A</color>
+
+</resources>

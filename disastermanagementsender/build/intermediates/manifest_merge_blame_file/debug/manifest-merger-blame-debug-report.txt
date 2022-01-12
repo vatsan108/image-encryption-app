@@ -1,0 +1,213 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.disastermanagementsender"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="17" />
+9-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" >
+11-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:9:5-10:23
+11-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:9:22-62
+12    </uses-permission>
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:11:5-81
+13-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:11:22-78
+14    <uses-permission android:name="android.permission.STORAGE" />
+14-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:12:5-66
+14-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:12:22-63
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:13:5-67
+15-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:13:22-64
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:14:5-75
+16-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:14:22-72
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:15:5-67
+17-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:15:22-64
+18
+19    <uses-feature
+19-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:17:5-19:36
+20        android:name="android.hardware.camera.front"
+20-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:18:9-53
+21        android:required="false" />
+21-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:19:9-33
+22    <uses-feature
+22-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:20:5-22:36
+23        android:name="android.hardware.camera"
+23-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:21:9-47
+24        android:required="false" />
+24-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:22:9-33
+25
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:24:5-71
+26-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:24:22-68
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:25:5-79
+27-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:25:22-76
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:26:5-76
+28-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:26:22-73
+29
+30    <application
+30-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:28:5-132:19
+31        android:name="com.example.disastermanagementsender.acommon.MyApplication"
+31-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:29:9-46
+32        android:allowBackup="false"
+32-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:30:9-36
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\Shubham Kumar\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@drawable/disaster_logo_1"
+35-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:31:9-49
+36        android:label="@string/app_name"
+36-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:32:9-41
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:33:9-40
+39        <activity
+39-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:35:9-45:20
+40            android:name="com.example.disastermanagementsender.MainActivity"
+40-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:36:13-77
+41            android:exported="true"
+41-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:37:13-36
+42            android:label="@string/app_name" >
+42-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:38:13-45
+43
+44            <!--
+45            <intent-filter>
+46                <action android:name="android.intent.action.MAIN" />
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+49            </intent-filter>
+50            -->
+51        </activity>
+52        <activity
+52-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:48:9-51:20
+53            android:name="com.example.disastermanagementsender.VideoStreamActivity"
+53-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:49:13-84
+54            android:label="@string/app_name" >
+54-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:50:13-45
+55        </activity>
+56        <activity
+56-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:53:9-56:20
+57            android:name="com.example.disastermanagementsender.MainActivity1"
+57-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:54:13-78
+58            android:label="@string/app_name" >
+58-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:55:13-45
+59        </activity>
+60        <activity
+60-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:58:10-61:20
+61            android:name="com.example.disastermanagementsender.DepartmentListActivity"
+61-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:59:13-87
+62            android:label="@string/app_name" >
+62-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:60:13-45
+63        </activity>
+64        <activity
+64-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:64:9-67:20
+65            android:name="com.example.disastermanagementsender.Login"
+65-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:65:13-70
+66            android:label="@string/app_name" >
+66-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:66:13-45
+67        </activity>
+68        <activity
+68-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:68:9-71:20
+69            android:name="com.example.disastermanagementsender.Home"
+69-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:69:13-69
+70            android:label="@string/app_name" >
+70-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:70:13-45
+71        </activity>
+72        <activity
+72-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:72:9-75:20
+73            android:name="com.example.disastermanagementsender.MainActivitycallreceive"
+73-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:73:13-88
+74            android:label="@string/app_name" >
+74-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:74:13-45
+75        </activity>
+76        <activity
+76-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:76:9-79:20
+77            android:name="com.example.disastermanagementsender.ChatActivity"
+77-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:77:13-77
+78            android:label="@string/app_name" >
+78-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:78:13-45
+79        </activity>
+80        <activity
+80-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:80:9-87:20
+81            android:name="com.example.disastermanagementsender.RegisterActivity"
+81-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:81:13-81
+82            android:label="@string/app_name" >
+82-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:82:13-45
+83
+84            <!--
+85            <intent-filter>
+86                <action android:name="android.intent.action.MAIN" />
+87                <category android:name="android.intent.category.LAUNCHER" />
+88            </intent-filter>
+89            -->
+90        </activity>
+91        <activity
+91-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:89:9-92:20
+92            android:name="com.example.disastermanagementsender.Register"
+92-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:90:13-73
+93            android:label="@string/app_name" >
+93-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:91:13-45
+94        </activity>
+95        <activity
+95-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:94:9-97:20
+96            android:name="com.example.disastermanagementsender.PhotoCaptureActivity"
+96-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:95:13-85
+97            android:label="@string/app_name" >
+97-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:96:13-45
+98        </activity>
+99        <activity
+99-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:100:9-103:20
+100            android:name="com.example.disastermanagementsender.OneShotPreviewActivity"
+100-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:101:13-87
+101            android:label="@string/app_name" >
+101-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:102:13-45
+102        </activity>
+103        <activity
+103-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:105:9-108:20
+104            android:name="com.example.disastermanagementsender.acommon.RegisterActivity"
+104-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:106:13-89
+105            android:label="@string/app_name" >
+105-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:107:13-45
+106        </activity>
+107        <activity
+107-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:110:9-120:20
+108            android:name="com.example.disastermanagementsender.acommon.LoginActivity"
+108-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:111:13-86
+109            android:label="@string/app_name" >
+109-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:112:13-45
+110            <intent-filter>
+110-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:114:13-118:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:115:17-69
+111-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:115:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:117:17-77
+113-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:117:27-74
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:122:9-125:20
+117            android:name="com.example.disastermanagementsender.acommon.ForgotPasswordActivity"
+117-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:123:13-95
+118            android:label="@string/app_name" >
+118-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:124:13-45
+119        </activity>
+120        <activity
+120-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:127:9-130:20
+121            android:name="com.example.disastermanagementsender.selectfile.FileSelecter"
+121-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:128:13-88
+122            android:label="@string/app_name" >
+122-->C:\Users\Shubham Kumar\Desktop\AESSenderReceiver\disastermanagementsender\src\main\AndroidManifest.xml:129:13-45
+123        </activity>
+124    </application>
+125
+126</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/forgot2"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter secret key"
+        android:textColorHint="#749AE6"
+        android:layout_margin="15dp"
+        android:id="@+id/key"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_marginLeft="120dp"
+        android:text="Decrypt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="Status message"
+        android:textColor="#749AE6"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="259dp"
+        android:layout_height="369dp"
+        android:layout_margin="73dp"
+        android:background="@drawable/disaster_logo_1" />
+
+
+
+</LinearLayout>

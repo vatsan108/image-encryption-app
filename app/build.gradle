@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+
+    defaultConfig {
+        applicationId "com.android.receiver"
+        minSdkVersion 15
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation files('libs/acra-4.5.0.jar')
+//    implementation "com.github.parse-community.Parse-SDK-Android:parse:1.22.1"
+}

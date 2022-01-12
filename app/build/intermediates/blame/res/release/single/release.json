@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\layout_splash.xml.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_disaster_logo_1.jpeg.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\drawable-hdpi\\disaster_logo_1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_forgot2.jpg.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\drawable-hdpi\\forgot2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\layout_imagereceive.xml.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\layout\\imagereceive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_mobback3.jpg.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\drawable-hdpi\\mobback3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\Shubham Kumar\\Desktop\\AESSenderReceiver\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.jpg"
+    }
+]

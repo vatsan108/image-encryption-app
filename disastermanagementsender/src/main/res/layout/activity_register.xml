@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background = "@drawable/mobback2"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a username/email"
+        android:textColorHint="#8E9EE3"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter a password"
+            android:ems="10"
+            android:textColorHint="#8E9EE3"
+            android:inputType="textPassword"
+            android:layout_toLeftOf="@+id/ivpwdhideshow"
+            android:textColor="@color/colorAccent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:src="@drawable/hidepassword"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ivpwdhideshow"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the name"
+        android:textColorHint="#8E9EE3"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter phone number"
+        android:textColorHint="#8E9EE3"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the address"
+        android:textColorHint="#8E9EE3"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <!--    android:hint="Address"-->
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Department"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent" />
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789-"
+        android:ems="10"
+        android:maxLength="10"
+        android:hint="DOB"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="bloodGroup"
+        android:visibility="gone"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+</LinearLayout>
